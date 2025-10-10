@@ -49,3 +49,8 @@ html_theme_options = {
     "logo_only": False,
     "display_version": False,
 }
+
+html_static_path = ['_static']
+
+def setup(app):
+    app.add_css_file('css/no-sidebar.css')

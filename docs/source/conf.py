@@ -7,8 +7,8 @@ assert importlib.util.find_spec("sphinx_design"), "sphinx_design not installed i
 # -- Project information
 
 project = 'Agri-scHub'
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2025, SongLiLab'
+author = 'SongLiLab'
 
 release = '0.1'
 version = '0.1.0'

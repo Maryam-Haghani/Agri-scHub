@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "Agri-scHub"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+authors = [{name = "SongLiLab", email = "song@vt"}]
 dynamic = ["version", "description"]
 dependencies = [
     "sphinx"

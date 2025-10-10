@@ -31,8 +31,8 @@ Methods Overview
 
 1. **sc-Ortho-Marker groups (scOMG)** is a method for cross-species cell annotation in plants (Chau et al., 2025, *Nature Communications*).
 
-2. **scCoBench** compared 10 methods for co-expression analysis in **scRNA-seq** data using GFP marker genes (Chau et al., 2025).  
-   The companion tool **scCoExpVis** allows quick *online exploration* of co-expression matrices for user-provided single-cell data.
+2. **scCoBench** compared 10 methods for co-expression analysis in scRNA-seq data using GFP marker genes (Chau et al., 2025).  
+   The companion tool cCoExpVis allows quick *online exploration* of co-expression matrices for user-provided single-cell data.
 
 3. **scPredGO** used machine learning to predict GO annotation from single-cell expression data (Chinnareddy et al., 2025).
 

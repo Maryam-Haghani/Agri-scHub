@@ -1,8 +1,12 @@
+import importlib.util
+assert importlib.util.find_spec("sphinx_design"), "sphinx_design not installed in RTD build"
+
+
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Agri-scHub'
 copyright = '2021, Graziella'
 author = 'Graziella'
 

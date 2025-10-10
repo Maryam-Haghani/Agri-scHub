@@ -20,8 +20,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-    "sphinx_design"
+    'sphinx.ext.intersphinx'
 ]
 
 intersphinx_mapping = {
@@ -38,5 +37,3 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-html_static_path = ['_static']

@@ -2,6 +2,11 @@
 Agriculture *sc*-Hub
 =================
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+   :numbered:
+
 .. grid:: 1 2 2 4
    :gutter: 2
 

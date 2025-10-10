@@ -38,3 +38,14 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+html_theme_options = {
+    # Sidebar behavior
+    "collapse_navigation": True,   # collapse siblings by default
+    "sticky_navigation": True,     # keep sidebar visible on scroll
+    "navigation_depth": 3,         # how many levels to show in the nav
+    "titles_only": False,          # show page titles + sections
+    # Branding (optional)
+    "logo_only": False,
+    "display_version": False,
+}

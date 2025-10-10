@@ -2,24 +2,24 @@
 Agriculture *sc*-Hub
 =================
 
-.. grid:: 4
-      :gutter: 2
+.. grid:: 1 2 2 4
+   :gutter: 2
 
-      .. grid-item::
-         .. image:: images/scOMG.png
-            :width: 100%
+   .. grid-item::
+      .. image:: images/scOMG.png
+         :width: 100%
 
-      .. grid-item::
-         .. image:: images/scCoBench_scCoExpVis.png
-            :width: 100%
+   .. grid-item::
+      .. image:: images/scCoBench_scCoExpVis.png
+         :width: 100%
 
-      .. grid-item::
-         .. image:: images/scPredGO.png
-            :width: 100%
+   .. grid-item::
+      .. image:: images/scPredGO.png
+         :width: 100%
 
-      .. grid-item::
-         .. image:: images/sc3UTR.png
-            :width: 100%
+   .. grid-item::
+      .. image:: images/sc3UTR.png
+         :width: 100%
 
 Methods Overview
 ----------------

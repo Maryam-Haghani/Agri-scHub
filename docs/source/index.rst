@@ -5,10 +5,10 @@ Agriculture *sc*-Hub
 .. raw:: html
 
    <div style="display: flex; justify-content: center; gap: 30px;">
-       <img src="_images/scOMG.png" alt="scOMG" width="22%">
-       <img src="_images/scCoBench_scCoExpVis.png" alt="scCoBench" width="22%">
-       <img src="_images/scPredGO.png" alt="scPredGO" width="22%">
-       <img src="_images/sc3UTR.png" alt="sc3UTR" width="22%">
+       <img src="images/scOMG.png" alt="scOMG" width="22%">
+       <img src="images/scCoBench_scCoExpVis.png" alt="scCoBench" width="22%">
+       <img src="images/scPredGO.png" alt="scPredGO" width="22%">
+       <img src="images/sc3UTR.png" alt="sc3UTR" width="22%">
    </div>
 
 Methods Overview

@@ -9,4 +9,5 @@ dynamic = ["version", "description"]
 dependencies = [
     "sphinx",
     "sphinx-design",
+    "sphinx-rtd-theme",
 ]

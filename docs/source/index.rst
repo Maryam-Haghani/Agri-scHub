@@ -42,3 +42,17 @@ Availability
 ------------
 
 These methods and tutorials will be provided in the Ag-sc-Hub.
+
+.. toctree::
+   :maxdepth: 3 
+
+   Tutorials
+   User Guide
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

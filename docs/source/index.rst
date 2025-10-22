@@ -26,7 +26,7 @@ Agriculture *sc*-Hub
       .. image:: images/sc3UTR.png
          :width: 100%
 
-Methods Overview
+Methods Supported
 ----------------
 
 1. **sc-Ortho-Marker groups (scOMG)** is a method for cross-species cell annotation in plants (Chau et al., 2025, *Nature Communications*).

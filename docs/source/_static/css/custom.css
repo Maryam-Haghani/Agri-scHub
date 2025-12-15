@@ -13,26 +13,3 @@
   width: 100%;
 }
 
-/* Make sure the title link doesn't override icon color */
-.tab-card .sd-card-header a,
-.tab-card .sd-card-title a {
-  color: inherit !important;
-}
-
-/* Per-card icon colors (and SVG fill) */
-.tab-db  .sd-card-header i, .tab-db  .sd-card-header svg,
-.tab-db  .sd-card-title  i, .tab-db  .sd-card-title  svg { color:#7fbf8a !important; fill:currentColor !important; }
-
-.tab-pub .sd-card-header i, .tab-pub .sd-card-header svg,
-.tab-pub .sd-card-title  i, .tab-pub .sd-card-title  svg { color:#7aa7d8 !important; fill:currentColor !important; }
-
-.tab-pro .sd-card-header i, .tab-pro .sd-card-header svg,
-.tab-pro .sd-card-title  i, .tab-pro .sd-card-title  svg { color:#9aa0a6 !important; fill:currentColor !important; }
-
-.tab-yt  .sd-card-header i, .tab-yt  .sd-card-header svg,
-.tab-yt  .sd-card-title  i, .tab-yt  .sd-card-title  svg { color:#e08a8a !important; fill:currentColor !important; }
-
-.tab-vis .sd-card-header i, .tab-vis .sd-card-header svg,
-.tab-vis .sd-card-title  i, .tab-vis .sd-card-title  svg { color:#b08ad6 !important; fill:currentColor !important; }
-
-

@@ -4,6 +4,9 @@ assert importlib.util.find_spec("sphinx_design"), "sphinx_design not installed i
 
 # Configuration file for the Sphinx documentation builder.
 
+def setup(app):
+    app.add_css_file("custom.css")
+
 # -- Project information
 
 project = 'Agri-scHub'

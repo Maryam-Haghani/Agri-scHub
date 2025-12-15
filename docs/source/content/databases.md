@@ -49,6 +49,7 @@ DB6
 
 
 ```{toctree}
+:hidden:
 :maxdepth: 1
 
 DBs/scPlantDB
@@ -57,4 +58,3 @@ DBs/DB3
 DBs/DB4
 DBs/DB5
 DBs/DB6
-

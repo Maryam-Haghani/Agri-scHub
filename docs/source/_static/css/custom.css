@@ -7,35 +7,34 @@
   margin-left: 0 !important;
 }
 
+/* --- Card title row: make it a flex line --- */
+.tab-card .sd-card-title,
 .tab-card-title {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-/* Push the icon to the absolute far right */
+/* If the text is wrapped in a span, let it expand */
+.tab-card .sd-card-title span,
+.tab-card-title span {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* --- Icon: pin to far right + enlarge --- */
+.tab-card .sd-card-title i.fa-solid,
+.tab-card .sd-card-title i.fa-brands,
+.tab-card .sd-card-title svg.svg-inline--fa,
 .tab-card-title i.fa-solid,
 .tab-card-title i.fa-brands,
 .tab-card-title svg.svg-inline--fa {
   margin-left: auto;
-  font-size: 2em; /* tweak to taste */
+  font-size: 2.2em;   /* tweak */
+  line-height: 1;
 }
 
+/* Optional: stop header wrappers from interfering */
 .tab-card .sd-card-header {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  gap: 0.75rem;
-}
-
-.tab-card .sd-card-header > *:first-child {
-  flex: 1 1 auto;           /* title expands */
-  min-width: 0;
-}
-
-.tab-card .sd-card-header i.fa-solid,
-.tab-card .sd-card-header i.fa-brands,
-.tab-card .sd-card-header svg.svg-inline--fa {
-  margin-left: auto;        /* icon goes to far right */
-  font-size: 2em;         /* bigger icon (tweak) */
+  display: block;
 }

@@ -29,13 +29,13 @@
 
 ## Browse
 
-```{needlist}
+```{needlist}::
 :types: publication
 ```
 
 ## Table
 
-```{needtable}
+```{needtable}::
 :types: publication
 :columns: id;title;category;doi;year;code;sra
 :search: True

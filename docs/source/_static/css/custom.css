@@ -24,9 +24,10 @@
   fill: currentColor !important;  /* for svg icons */
 }
 
-.tab-db  i, .tab-db  svg { color: #7fbf8a; }  /* light green */
-.tab-pub i, .tab-pub svg { color: #7aa7d8; }  /* light blue */
-.tab-pro i, .tab-pro svg { color: #9aa0a6; }  /* light gray */
-.tab-yt  i, .tab-yt  svg { color: #e08a8a; }  /* light red */
-.tab-vis i, .tab-vis svg { color: #b08ad6; }  /* light purple */
+/* Per-card icon colors (light/pastel) */
+.tab-db  .sd-card-title i, .tab-db  .sd-card-title svg { color: #7fbf8a !important; }
+.tab-pub .sd-card-title i, .tab-pub .sd-card-title svg { color: #7aa7d8 !important; }
+.tab-pro .sd-card-title i, .tab-pro .sd-card-title svg { color: #9aa0a6 !important; }
+.tab-yt  .sd-card-title i, .tab-yt  .sd-card-title svg { color: #e08a8a !important; }
+.tab-vis .sd-card-title i, .tab-vis .sd-card-title svg { color: #b08ad6 !important; }
 

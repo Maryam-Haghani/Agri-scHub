@@ -21,28 +21,28 @@ PlantscRNAdb
 :link: DBs/DB3
 :link-type: doc
 
-DB3
+...
 :::
 
 :::{grid-item-card}
 :link: DBs/DB4
 :link-type: doc
 
-DB4
+...
 :::
 
 :::{grid-item-card}
 :link: DBs/DB5
 :link-type: doc
 
-DB5
+...
 :::
 
 :::{grid-item-card}
 :link: DBs/DB6
 :link-type: doc
 
-DB6
+...
 :::
 
 ::::

@@ -1,10 +1,6 @@
 /* Make the main content wider */
 .wy-nav-content {
-  max-width: none;
+  max-width: none; !important;
 }
 
-
-/* Wider content column */
-.bd-main .bd-content .bd-article-container {
-  max-width: 1200px;
-}
+body { outline: 5px solid red !important; }

@@ -4,7 +4,7 @@
 - **Release Date:** 2025-05-07
 - **Link to Website:** [http://ibi.zju.edu.cn/plantscrnadb](http://ibi.zju.edu.cn/plantscrnadb)
 
-```{image} ../../_static/images/PlantscRNAdb.png
+```{image} ../../_static/images/plantscRNAdb.png
 :alt: PlantscRNAdb screenshot
 :target: http://ibi.zju.edu.cn/plantscrnadb
 :title: Open PlantscRNAdb

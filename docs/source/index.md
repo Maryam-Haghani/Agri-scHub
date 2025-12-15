@@ -18,7 +18,6 @@
 
 :::{tab-item} YouTube Channels
 - [Channel name](https://youtube.com/...)
-- [Another channel](https://youtube.com/...)
 :::
 
 :::{tab-item} Visualization

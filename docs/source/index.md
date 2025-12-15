@@ -8,6 +8,7 @@
 :link-type: doc
 :click-parent:
 :class-card: tab-card
+:class-title: tab-card-title
 
 Go to the Databases page.
 :::
@@ -17,6 +18,7 @@ Go to the Databases page.
 :link-type: doc
 :click-parent:
 :class-card: tab-card
+:class-title: tab-card-title
 
 Go to the Publications page.
 :::
@@ -26,6 +28,7 @@ Go to the Publications page.
 :link-type: doc
 :click-parent:
 :class-card: tab-card
+:class-title: tab-card-title
 
 Go to the Protocols + GitHub page.
 :::
@@ -35,6 +38,7 @@ Go to the Protocols + GitHub page.
 :link-type: doc
 :click-parent:
 :class-card: tab-card
+:class-title: tab-card-title
 
 Go to the YouTube Channels page.
 :::
@@ -44,6 +48,7 @@ Go to the YouTube Channels page.
 :link-type: doc
 :click-parent:
 :class-card: tab-card
+:class-title: tab-card-title
 
 Go to the Visualization page.
 :::

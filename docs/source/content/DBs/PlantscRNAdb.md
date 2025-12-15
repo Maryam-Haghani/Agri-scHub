@@ -8,6 +8,3 @@
 :alt: PlantscRNAdb screenshot
 :target: http://ibi.zju.edu.cn/plantscrnadb
 :title: Open PlantscRNAdb
-
-
-

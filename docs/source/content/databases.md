@@ -48,7 +48,9 @@ DB6
 ::::
 
 
+
 ```{toctree}
+:hidden:
 :maxdepth: 1
 
 DBs/scPlantDB

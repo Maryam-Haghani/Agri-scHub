@@ -47,3 +47,15 @@ DB6
 
 ::::
 
+
+```{toctree}
+:hidden:
+:maxdepth: 1
+
+content/DBs/scPlantDB
+content/DBs/PlantscRNAdb
+content/DBs/DB3
+content/DBs/DB4
+content/DBs/DB5
+content/DBs/DB6
+

@@ -49,7 +49,7 @@ DB6
 
 
 ```{toctree}
-:hidden:
+:class: dbs-toctree
 :maxdepth: 1
 
 DBs/scPlantDB

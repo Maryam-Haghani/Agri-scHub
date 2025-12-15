@@ -53,7 +53,7 @@ Go to the Visualization page.
 
 ```{toctree}
 :hidden:
-:maxdepth: 1
+:maxdepth: 2
 content/databases
 content/publications
 content/protocols

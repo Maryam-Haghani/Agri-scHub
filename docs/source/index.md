@@ -7,6 +7,7 @@
 :link: content/databases
 :link-type: doc
 :click-parent:
+:class-card: sd-d-flex sd-justify-content-between sd-align-items-center
 
 Go to the Databases page.
 :::
@@ -15,6 +16,7 @@ Go to the Databases page.
 :link: content/publications
 :link-type: doc
 :click-parent:
+:class-card: sd-d-flex sd-justify-content-between sd-align-items-center
 
 Go to the Publications page.
 :::
@@ -23,6 +25,7 @@ Go to the Publications page.
 :link: content/protocols
 :link-type: doc
 :click-parent:
+:class-card: sd-d-flex sd-justify-content-between sd-align-items-center
 
 Go to the Protocols + GitHub page.
 :::
@@ -31,6 +34,7 @@ Go to the Protocols + GitHub page.
 :link: content/youtube
 :link-type: doc
 :click-parent:
+:class-card: sd-d-flex sd-justify-content-between sd-align-items-center
 
 Go to the YouTube Channels page.
 :::
@@ -39,6 +43,7 @@ Go to the YouTube Channels page.
 :link: content/visualization
 :link-type: doc
 :click-parent:
+:class-card: sd-d-flex sd-justify-content-between sd-align-items-center
 
 Go to the Visualization page.
 :::

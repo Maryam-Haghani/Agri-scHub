@@ -7,8 +7,7 @@
 :link: content/databases
 :link-type: doc
 :click-parent:
-:class-card: tab-card
-:img-background: data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='400'><rect width='100%25' height='100%25' fill='%231b5e20'/></svg>
+:class-card: tab-card tab-db
 
 Go to the Databases page.
 :::
@@ -17,7 +16,7 @@ Go to the Databases page.
 :link: content/publications
 :link-type: doc
 :click-parent:
-:class-card: tab-card
+:class-card: tab-card tab-pub
 
 Go to the Publications page.
 :::
@@ -26,7 +25,7 @@ Go to the Publications page.
 :link: content/protocols
 :link-type: doc
 :click-parent:
-:class-card: tab-card
+:class-card: tab-card tab-pro
 
 Go to the Protocols + GitHub page.
 :::
@@ -35,7 +34,7 @@ Go to the Protocols + GitHub page.
 :link: content/youtube
 :link-type: doc
 :click-parent:
-:class-card: tab-card
+:class-card: tab-card tab-yt
 
 Go to the YouTube Channels page.
 :::
@@ -44,7 +43,7 @@ Go to the YouTube Channels page.
 :link: content/visualization
 :link-type: doc
 :click-parent:
-:class-card: tab-card
+:class-card: tab-card tab-vis
 
 Go to the Visualization page.
 :::

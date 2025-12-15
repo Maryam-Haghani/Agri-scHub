@@ -37,7 +37,7 @@
 
 ```{needtable}
 :types: publication
-:columns: id;title;category;doi;year;code;sra
+:columns: id;category;doi;year;code;sra
 :search: True
 :filter: True
 :sort: category;year

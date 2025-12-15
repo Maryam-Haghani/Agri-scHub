@@ -7,4 +7,11 @@
 :year: 2023
 :code: https://github.com/yourrepo
 :sra: SRPXXXXXX
+```
 
+```{needtable}
+:columns: id;title;category;doi;year;code;sra
+:search: True
+:filter: True
+:sort: category;year
+```

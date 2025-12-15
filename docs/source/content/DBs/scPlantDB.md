@@ -5,5 +5,5 @@
 - **Release Date:** 2023-7-10
 - **Link to Website:** [https://biobigdata.nju.edu.cn/scplantdb](https://biobigdata.nju.edu.cn/scplantdb)
 
-[![scPlantDB screenshot](../../_static/scPlantDB.png)](https://biobigdata.nju.edu.cn/scplantdb){target="_blank"}
+[![scPlantDB screenshot](../../_static/images/scPlantDB.png)](https://biobigdata.nju.edu.cn/scplantdb){target="_blank"}
 

@@ -71,5 +71,5 @@ html_css_files = [
 ]
 
 needs_types = [
-    dict(directive="publication", title="Publications", prefix="P", color="#BFD8D2", style="node"),
+    dict(directive="publication", title="Publication", prefix="Pub", color="#BFD8D2", style="node"),
 ]

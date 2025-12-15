@@ -8,7 +8,11 @@
 :link-type: doc
 :click-parent:
 :class-card: tab-card
-:class-title: tab-card-title
+
+<div class="tab-card-row">
+  <span class="tab-card-text">Databases</span>
+  <i class="fa-solid fa-database tab-card-icon" aria-hidden="true"></i>
+</div>
 
 Go to the Databases page.
 :::
@@ -18,7 +22,11 @@ Go to the Databases page.
 :link-type: doc
 :click-parent:
 :class-card: tab-card
-:class-title: tab-card-title
+
+<div class="tab-card-row">
+  <span class="tab-card-text">Publications</span>
+  <i class="fa-solid fa-book-open tab-card-icon" aria-hidden="true"></i>
+</div>
 
 Go to the Publications page.
 :::
@@ -28,7 +36,12 @@ Go to the Publications page.
 :link-type: doc
 :click-parent:
 :class-card: tab-card
-:class-title: tab-card-title
+
+<div class="tab-card-row">
+  <span class="tab-card-text">Protocols + GitHub</span>
+  <i class="fa-brands fa-github tab-card-icon" aria-hidden="true"></i>
+</div>
+
 
 Go to the Protocols + GitHub page.
 :::
@@ -38,7 +51,11 @@ Go to the Protocols + GitHub page.
 :link-type: doc
 :click-parent:
 :class-card: tab-card
-:class-title: tab-card-title
+
+<div class="tab-card-row">
+  <span class="tab-card-text">YouTube Channels</span>
+  <i class="fa-brands fa-youtube tab-card-icon" aria-hidden="true"></i>
+</div>
 
 Go to the YouTube Channels page.
 :::
@@ -48,7 +65,11 @@ Go to the YouTube Channels page.
 :link-type: doc
 :click-parent:
 :class-card: tab-card
-:class-title: tab-card-title
+
+<div class="tab-card-row">
+  <span class="tab-card-text">Visualization</span>
+  <i class="fa-solid fa-chart-line tab-card-icon" aria-hidden="true"></i>
+</div>
 
 Go to the Visualization page.
 :::

@@ -3,23 +3,23 @@
 ::::{tab-set}
 
 :::{tab-item} Databases
-- {doc}`databases`
+- {doc}`content/databases`
 :::
 
 :::{tab-item} Publications
-- {doc}`publications`
+- {doc}`content/publications`
 :::
 
 :::{tab-item} Protocols + GitHub
-- {doc}`protocols`
+- {doc}`content/protocols`
 :::
 
 :::{tab-item} YouTube Channels
-- {doc}`youtube`
+- {doc}`content/youtube`
 :::
 
 :::{tab-item} Visualization
-- {doc}`visualization`
+- {doc}`content/visualization`
 :::
 
 ::::
@@ -27,8 +27,8 @@
 ```{toctree}
 :hidden:
 :maxdepth: 1
-databases
-publications
-protocols
-youtube
-visualization
+content/databases
+content/publications
+content/protocols
+content/youtube
+content/visualization

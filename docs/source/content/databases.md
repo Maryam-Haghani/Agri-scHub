@@ -4,42 +4,42 @@
 :gutter: 2
 
 :::{grid-item-card}
-:link: content/DBs/scPlantDB
+:link: DBs/scPlantDB
 :link-type: doc
 
 scPlantDB
 :::
 
 :::{grid-item-card}
-:link: content/DBs/PlantscRNAdb
+:link: DBs/PlantscRNAdb
 :link-type: doc
 
 PlantscRNAdb
 :::
 
 :::{grid-item-card}
-:link: content/DBs/DB3
+:link: DBs/DB3
 :link-type: doc
 
 DB3
 :::
 
 :::{grid-item-card}
-:link: content/DBs/DB4
+:link: DBs/DB4
 :link-type: doc
 
 DB4
 :::
 
 :::{grid-item-card}
-:link: content/DBs/DB5
+:link: DBs/DB5
 :link-type: doc
 
 DB5
 :::
 
 :::{grid-item-card}
-:link: content/DBs/DB6
+:link: DBs/DB6
 :link-type: doc
 
 DB6
@@ -52,10 +52,10 @@ DB6
 :hidden:
 :maxdepth: 1
 
-content/DBs/scPlantDB
-content/DBs/PlantscRNAdb
-content/DBs/DB3
-content/DBs/DB4
-content/DBs/DB5
-content/DBs/DB6
+DBs/scPlantDB
+DBs/PlantscRNAdb
+DBs/DB3
+DBs/DB4
+DBs/DB5
+DBs/DB6
 

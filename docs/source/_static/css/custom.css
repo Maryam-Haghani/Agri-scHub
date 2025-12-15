@@ -1,6 +1,10 @@
 /* Make the main content wider */
 .wy-nav-content {
-  max-width: none; !important;
+  max-width: none !important;
+}
+
+.wy-nav-content-wrap {
+  margin-left: 0 !important;
 }
 
 body { outline: 5px solid red !important; }

@@ -11,7 +11,7 @@ scPlantDB
 :::
 
 :::{grid-item-card}
-:link: DBs/PlantscRNAdb
+:link: DBs/plantscRNAdb
 :link-type: doc
 
 PlantscRNAdb
@@ -54,7 +54,7 @@ DB6
 :maxdepth: 1
 
 DBs/scPlantDB
-DBs/PlantscRNAdb
+DBs/plantscRNAdb
 DBs/DB3
 DBs/DB4
 DBs/DB5

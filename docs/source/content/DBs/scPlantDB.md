@@ -11,5 +11,3 @@
 :title: Open scPlantDB
 
 
-[![scPlantDB screenshot](../../_static/images/scPlantDB.png)](https://biobigdata.nju.edu.cn/scplantdb){target="_blank"}
-

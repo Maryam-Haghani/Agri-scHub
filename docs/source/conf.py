@@ -20,6 +20,7 @@ version = '0.1.0'
 
 extensions = [
     "myst_parser",
+    "sphinx_needs",
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
@@ -67,4 +68,8 @@ html_static_path = ['_static']
 html_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css",
     "custom.css"
+]
+
+needs_types = [
+    dict(directive="publication", title="Publications", prefix="P", color="#BFD8D2", style="node"),
 ]

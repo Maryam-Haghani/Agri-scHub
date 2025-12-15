@@ -3,25 +3,23 @@
 ::::{tab-set}
 
 :::{tab-item} Databases
-- {doc}`databases/index`
-- {doc}`databases/your_db_page`
+- {doc}`databases`
 :::
 
 :::{tab-item} Publications
-- {doc}`publications/index`
+- {doc}`publications`
 :::
 
 :::{tab-item} Protocols + GitHub
-- {doc}`protocols/index`
-- [GitHub](https://github.com/your_org/your_repo)
+- {doc}`protocols`
 :::
 
 :::{tab-item} YouTube Channels
-- [Channel name](https://youtube.com/...)
+- {doc}`youtube`
 :::
 
 :::{tab-item} Visualization
-- {doc}`visualization/index`
+- {doc}`visualization`
 :::
 
 ::::

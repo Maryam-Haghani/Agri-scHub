@@ -23,3 +23,12 @@
 :::
 
 ::::
+
+```{toctree}
+:hidden:
+:maxdepth: 1
+databases
+publications
+protocols
+youtube
+visualization

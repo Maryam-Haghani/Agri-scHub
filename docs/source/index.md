@@ -8,6 +8,7 @@
 :link-type: doc
 :click-parent:
 :class-card: tab-card
+:img-background: data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='400'><rect width='100%25' height='100%25' fill='%231b5e20'/></svg>
 
 Go to the Databases page.
 :::

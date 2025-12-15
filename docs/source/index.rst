@@ -43,6 +43,46 @@ Availability
 
 These methods and tutorials will be provided in the Ag-sc-Hub.
 
+
+.. grid:: 1 2 3 3
+   :gutter: 2
+
+   .. grid-item-card:: Installation :octicon:`plug;1em;`
+      :link: api
+      :link-type: doc
+
+      New to *Ag-sc-Hub*? Check out the installation guide.
+
+   .. grid-item-card:: User guide :octicon:`info;1em;`
+      :link: usage
+      :link-type: doc
+
+      Learn how to run the supported methods and follow the tutorials.
+
+   .. grid-item-card:: API reference :octicon:`book;1em;`
+      :link: api
+      :link-type: doc
+
+      Detailed documentation of the Ag-sc-Hub API.
+
+   .. grid-item-card:: Tutorials :octicon:`play;1em;`
+      :link: usage
+      :link-type: doc
+
+      Walk through real-world applications of Ag-sc-Hub methods.
+
+   .. grid-item-card:: Discussion :octicon:`megaphone;1em;`
+      :link: https://www.discourse.org
+
+      Need help? Reach out on the forum to get your questions answered!
+
+   .. grid-item-card:: GitHub :octicon:`mark-github;1em;`
+      :link: https://github.com/LiLabAtVT/PlantSingleCell
+
+      Find a bug or want to contribute? Check out the repo for the latest updates.
+
+
+
 .. toctree::
 
    usage

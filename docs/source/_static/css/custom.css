@@ -28,12 +28,12 @@ table.dataTable th:nth-child(1) {
 }
 
 /* YouTube thumbnails in sphinx-design cards: keep 16:9 and make smaller */
-.sd-card-img-top img {
+img.sd-card-img-top {
   width: 100%;
   height: auto;
-  max-width: 240px;   /* adjust: 200–320px*/
+  max-width: 240px;
   display: block;
-  margin: 0 auto;     /* center inside the card */
+  margin: 0 auto;
   aspect-ratio: 16 / 9;
   object-fit: contain;
 }

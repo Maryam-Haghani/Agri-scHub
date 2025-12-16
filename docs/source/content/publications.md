@@ -13,9 +13,8 @@
 
 <div style="display:none">
 
-```{publication}
+```{publication} scPlantDB: a plant single-cell database
 :id: PUB_SCPLANTDB
-:title: scPlantDB: a plant single-cell database
 :status: published
 :category: Database
 :doi: 10.1093/nar/gkab1234
@@ -24,9 +23,8 @@
 :sra: SRPXXXXXX
 ```
 
-```{publication}
+```{publication} PlantscRNAdb: a plant single-cell transcriptome database
 :id: PUB_PLANTSCRNADB
-:title: PlantscRNAdb: a plant single-cell transcriptome database
 :status: published
 :category: Database
 :doi: 10.1093/plcell/xxxxxxx
@@ -35,9 +33,8 @@
 :sra: SRPYYYYYY
 ```
 
-```{publication}
+```{publication} Single-cell RNA sequencing of Arabidopsis roots reveals cell-type heterogeneity
 :id: PUB_ARABIDOPSIS_ROOT_SC
-:title: Single-cell RNA sequencing of Arabidopsis roots reveals cell-type heterogeneity
 :status: published
 :category: Root scRNA-seq
 :doi: 10.1038/s41586-019-xxxx-x

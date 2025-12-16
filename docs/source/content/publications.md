@@ -1,5 +1,16 @@
 # Publications
 
+
+## Table
+
+```{needtable}
+:types: publication
+:columns: id;category;doi;year;code;sra
+:filter: True
+:sort: category
+```
+
+
 ```{publication} scPlantDB: a plant single-cell database
 :id: PUB_SCPLANTDB
 :status: published
@@ -34,13 +45,4 @@
 
 ```{needlist}
 :types: publication
-```
-
-## Table
-
-```{needtable}
-:types: publication
-:columns: id;category;doi;year;code;sra
-:filter: True
-:sort: category
 ```

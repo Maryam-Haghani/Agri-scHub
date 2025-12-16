@@ -1,10 +1,9 @@
 # Publications
 
-
 ## Table
 
-<div style="width:100%; overflow-x:auto;"> 
-  
+<div style="width:100%; overflow-x:auto;">
+
 ```{needtable}
 :types: publication
 :columns: id;category;doi;year;code;sra
@@ -12,6 +11,9 @@
 :sort: category
 ```
 
+</div>
+
+## Publications
 
 ```{publication} scPlantDB: a plant single-cell database
 :id: PUB_SCPLANTDB
@@ -48,5 +50,3 @@
 ```{needlist}
 :types: publication
 ```
-
-</div>

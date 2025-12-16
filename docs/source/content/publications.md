@@ -2,7 +2,7 @@
 
 ```{needtable}
 :types: publication
-:columns: id;title;category;doi;year;code;sra
+:columns: title;category;doi;year;code;sra
 :sort_by: category
 :show_parts: False
 :style: datatables

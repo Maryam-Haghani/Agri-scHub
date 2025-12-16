@@ -24,6 +24,7 @@ div.dataTables_wrapper,
 table.dataTable,
 table.dataTable.no-footer {
   width: 100% !important;
+  overflow-x: auto;
 }
 
 /* Allow horizontal scroll instead of squeezing columns */
@@ -43,6 +44,21 @@ div.dataTables_wrapper {
   content: "";
   display: block;
   clear: both;
+}
+
+/* --- Stop DataTables responsive "collapse into child rows" --- */
+table.dataTable th.dtr-hidden,
+table.dataTable td.dtr-hidden {
+  display: table-cell !important;   /* show hidden columns again */
+}
+
+table.dataTable tr.child {
+  display: none !important;         /* hide the child detail rows */
+}
+
+/* Remove the little expand/collapse icon column */
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
+  display: none !important;
 }
 
 /* Put sphinx-needs needtable filters on one line */

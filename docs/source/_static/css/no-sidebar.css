@@ -3,6 +3,3 @@
 
 /* Remove the left margin the content wrapper reserves for the sidebar */
 .wy-nav-content-wrap { margin-left: 0; }
-
-/* Let content use the full width */
-.wy-nav-content { max-width: 100% !important; }

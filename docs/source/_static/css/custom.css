@@ -1,4 +1,4 @@
-/* Optional: use full browser width (minus sidebar) */
+/* full browser width (minus sidebar) */
 .wy-nav-content {
   max-width: none;
 }
@@ -14,12 +14,12 @@ div.dataTables_wrapper table.dataTable {
   clear: both !important;
 }
 
-/* RTD wrapper can clip/shift DataTables; let it behave normally */
+
 .wy-table-responsive {
   overflow: visible !important;
 }
 
-/* Allow wrapping in the Title column (2nd column) */
+/* allow wrapping in the Title column */
 table.dataTable td:nth-child(1),
 table.dataTable th:nth-child(1) {
   white-space: normal !important;

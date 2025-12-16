@@ -4,21 +4,21 @@
 :gutter: 2
 
 :::{grid-item-card}
-:link: DBs/scPlantDB
+:link: db/scPlantDB
 :link-type: doc
 
 scPlantDB
 :::
 
 :::{grid-item-card}
-:link: DBs/plantscRNAdb
+:link: db/plantscRNAdb
 :link-type: doc
 
 PlantscRNAdb
 :::
 
 :::{grid-item-card}
-:link: DBs/DB3
+:link: db/DB3
 :link-type: doc
 
 ...
@@ -32,14 +32,14 @@ PlantscRNAdb
 :::
 
 :::{grid-item-card}
-:link: DBs/DB5
+:link: db/DB5
 :link-type: doc
 
 ...
 :::
 
 :::{grid-item-card}
-:link: DBs/DB6
+:link: db/DB6
 :link-type: doc
 
 ...
@@ -53,9 +53,9 @@ PlantscRNAdb
 :hidden:
 :maxdepth: 1
 
-DBs/scPlantDB
-DBs/plantscRNAdb
-DBs/DB3
-DBs/DB4
-DBs/DB5
-DBs/DB6
+db/scPlantDB
+db/plantscRNAdb
+db/DB3
+db/DB4
+db/DB5
+db/DB6

@@ -3,7 +3,7 @@
 ::::{grid} 1 2 3 3
 :gutter: 2
 
-:::{grid-item-card} scSeq Techniques in Plant Biology — Dr. Trevor Nolan (Duke University, USA)
+:::{grid-item-card} scSeq Techniques in Plant Biology — Dr. Trevor Nolan (Duke University)
 :link: https://www.youtube.com/watch?v=7_0RLQpNBvk
 :shadow: md
 :img-top: https://img.youtube.com/vi/7_0RLQpNBvk/mqdefault.jpg

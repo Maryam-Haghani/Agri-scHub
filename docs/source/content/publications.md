@@ -7,6 +7,7 @@
 :columns: id;title;category;doi;year;code;sra
 :sort_by: category
 :show_parts: False
+:style: datatables
 ```
 </div>
 

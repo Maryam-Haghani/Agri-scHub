@@ -39,5 +39,3 @@ Below are selected videos with thumbnails. Click a card to open the video.
 :margin: 2
 :img-top: https://img.youtube.com/vi/uqohZcKB9x0/hqdefault.jpg
 ```
-
-```

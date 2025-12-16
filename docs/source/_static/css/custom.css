@@ -8,88 +8,25 @@
   margin-left: 0 !important;
 }
 
-/* RTD theme wrapper breaks DataTables width/scroll */
-.wy-table-responsive {
-  overflow: visible !important;
+/* Make the DataTables top controls span full width and wrap nicely */
+div.dataTables_wrapper .dt-top,
+div.dataTables_wrapper .dataTables_length,
+div.dataTables_wrapper .dataTables_filter,
+div.dataTables_wrapper .dt-buttons {
+  float: none !important;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-/* Ensure tables use full width and don't get squished */
-.wy-table-responsive table {
-  width: 100% !important;
-  table-layout: auto !important;
+/* Force the actual table container to start at far left */
+div.dataTables_wrapper .dataTables_scroll,
+div.dataTables_wrapper table.dataTable {
+  margin-left: 0 !important;
+  clear: both !important;
 }
 
-/* DataTables: force full width */
-div.dataTables_wrapper,
-table.dataTable,
-table.dataTable.no-footer {
-  width: 100% !important;
-  overflow-x: auto;
-}
-
-/* Allow horizontal scroll instead of squeezing columns */
+/* If your theme adds padding to the wrapper, remove it */
 div.dataTables_wrapper {
-  overflow-x: auto;
+  padding-left: 0 !important;
 }
 
-/* Make the DataTables container not collapse */
-.dataTables_wrapper .dataTables_scroll,
-.dataTables_wrapper .dataTables_scrollHead,
-.dataTables_wrapper .dataTables_scrollBody {
-  width: 100% !important;
-}
-
-/* Prevent layout issues from floats */
-.dataTables_wrapper::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-/* --- Stop DataTables responsive "collapse into child rows" --- */
-table.dataTable th.dtr-hidden,
-table.dataTable td.dtr-hidden {
-  display: table-cell !important;   /* show hidden columns again */
-}
-
-table.dataTable tr.child {
-  display: none !important;         /* hide the child detail rows */
-}
-
-/* Remove the little expand/collapse icon column */
-table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
-  display: none !important;
-}
-
-/* Put sphinx-needs needtable filters on one line */
-.needs_filter {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 10px;
-  align-items: center;
-  overflow-x: auto;
-  margin-bottom: 12px;
-}
-
-.needs_filter > div {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin: 0 !important;
-}
-
-.needs_filter select,
-.needs_filter input {
-  max-width: 220px;
-}
-
-/* Keep these only if used elsewhere in your site */
-.tab-card {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.dbs-toctree {
-  display: none;
-}

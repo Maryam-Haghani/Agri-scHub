@@ -65,9 +65,7 @@ html_theme_options = {
 
 html_static_path = ['_static']
 html_css_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css",
-    # "https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css",
-    # "https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css", # icons
     "css/custom.css"
 ]
 
@@ -108,8 +106,3 @@ needs_string_links = {
         "options": ["sra"],
     }
 }
-
-
-
-
-

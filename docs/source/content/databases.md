@@ -25,7 +25,7 @@ PlantscRNAdb
 :::
 
 :::{grid-item-card}
-:link: DBs/DB4
+:link: db/DB4
 :link-type: doc
 
 ...

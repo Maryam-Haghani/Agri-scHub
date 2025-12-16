@@ -15,3 +15,27 @@
 
 .dbs-toctree { display: none; }
 
+/* Put sphinx-needs needtable filters on one line */
+.needs_filter {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  align-items: center;
+  overflow-x: auto;
+  margin-bottom: 12px; /* space before the table */
+}
+
+/* Each filter block stays inline */
+.needs_filter > div {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 !important;
+}
+
+/* Optional: prevent very wide select boxes */
+.needs_filter select,
+.needs_filter input {
+  max-width: 220px;
+}
+

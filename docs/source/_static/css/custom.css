@@ -1,51 +1,90 @@
+/* =========================
+   Layout
+   ========================= */
+
 /* Make the main content wider */
 .wy-nav-content {
   max-width: 1400px !important;
 }
 
-/* Optional: usually you don't need this, but keep if you like the look */
+/* Optional: keep if you like the look */
 .wy-nav-content-wrap {
   margin-left: 0 !important;
 }
 
-/* RTD theme wrapper breaks DataTables width/scroll */
+/* Remove extra left padding RTD adds inside content area
+   (so the needtable can start from the very left) */
+.wy-nav-content .rst-content,
+.wy-nav-content .rst-content .section {
+  padding-left: 0 !important;
+}
+
+/* RTD theme wrapper can clip DataTables */
 .wy-table-responsive {
   overflow: visible !important;
 }
 
-/* Ensure tables use full width and don't get squished */
-.wy-table-responsive table {
+
+/* =========================
+   DataTables / sphinx-needs needtable
+   ========================= */
+
+/* Put the top controls on one line */
+div.dataTables_wrapper .dataTables_length,
+div.dataTables_wrapper .dt-buttons,
+div.dataTables_wrapper .dataTables_filter {
+  display: inline-block !important;
+  float: none !important;
+  vertical-align: middle;
+}
+
+/* Keep Search on the right */
+div.dataTables_wrapper .dataTables_filter {
+  float: right !important;
+}
+
+/* Wrapper full width + no left padding */
+div.dataTables_wrapper {
   width: 100% !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  overflow-x: auto; /* allow horizontal scroll if needed */
+}
+
+/* Table starts below controls and from the left */
+div.dataTables_wrapper table.dataTable,
+div.dataTables_wrapper .dataTables_scroll {
+  width: 100% !important;
+  margin-left: 0 !important;
+  clear: both !important;
   table-layout: auto !important;
 }
 
-/* DataTables: force full width */
-div.dataTables_wrapper,
-table.dataTable,
-table.dataTable.no-footer {
-  width: 100% !important;
+
+/* =========================
+   Disable "responsive child rows" (so only the table shows)
+   ========================= */
+
+/* show hidden columns */
+table.dataTable th.dtr-hidden,
+table.dataTable td.dtr-hidden {
+  display: table-cell !important;
 }
 
-/* Allow horizontal scroll instead of squeezing columns */
-div.dataTables_wrapper {
-  overflow-x: auto;
+/* hide the child detail rows */
+table.dataTable tr.child {
+  display: none !important;
 }
 
-/* Make the DataTables container not collapse */
-.dataTables_wrapper .dataTables_scroll,
-.dataTables_wrapper .dataTables_scrollHead,
-.dataTables_wrapper .dataTables_scrollBody {
-  width: 100% !important;
+/* remove the expand/collapse icon column */
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
+  display: none !important;
 }
 
-/* Prevent layout issues from floats */
-.dataTables_wrapper::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 
-/* Put sphinx-needs needtable filters on one line */
+/* =========================
+   Optional: filters row styling (if you use needtable filters)
+   ========================= */
 .needs_filter {
   display: flex;
   flex-wrap: nowrap;
@@ -65,15 +104,4 @@ div.dataTables_wrapper {
 .needs_filter select,
 .needs_filter input {
   max-width: 220px;
-}
-
-/* Keep these only if used elsewhere in your site */
-.tab-card {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.dbs-toctree {
-  display: none;
 }

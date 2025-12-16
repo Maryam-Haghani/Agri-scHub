@@ -39,5 +39,5 @@
 :types: publication
 :columns: id;category;doi;year;code;sra
 :filter: True
-:sort: category;year
+:sort: category
 ```

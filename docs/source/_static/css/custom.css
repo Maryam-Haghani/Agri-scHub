@@ -13,6 +13,12 @@
   table-layout: auto !important;
 }
 
+/* DataTables sometimes injects inline widths; force full width */
+table.dataTable,
+table.dataTable.no-footer {
+  width: 100% !important;
+}
+
 
 .tab-card {
   display: flex;
@@ -24,12 +30,6 @@
 
 /* Ensure the needs datatable uses full width */
 div.dataTables_wrapper {
-  width: 100% !important;
-}
-
-/* DataTables sometimes injects inline widths; force full width */
-table.dataTable,
-table.dataTable.no-footer {
   width: 100% !important;
 }
 

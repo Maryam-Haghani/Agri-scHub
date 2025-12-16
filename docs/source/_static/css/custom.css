@@ -8,14 +8,20 @@
   margin-left: 0 !important;
 }
 
-/* Make the DataTables top controls span full width and wrap nicely */
-div.dataTables_wrapper .dt-top,
+/* Put the top controls on one line and ensure table starts below */
 div.dataTables_wrapper .dataTables_length,
-div.dataTables_wrapper .dataTables_filter,
-div.dataTables_wrapper .dt-buttons {
+div.dataTables_wrapper .dt-buttons,
+div.dataTables_wrapper .dataTables_filter {
+  display: inline-block !important;
   float: none !important;
-  display: inline-block;
-  vertical-align: middle;
+}
+
+div.dataTables_wrapper .dataTables_filter {
+  float: right !important;  /* keep Search on the right */
+}
+
+div.dataTables_wrapper table.dataTable {
+  clear: both !important;   /* table starts from left under controls */
 }
 
 /* Force the actual table container to start at far left */

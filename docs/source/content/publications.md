@@ -6,7 +6,8 @@
 :types: publication
 :columns: id;category;doi;year;code;sra
 :filter: True
-:sort: category
+:sort_by: category
+:show_parts: False
 ```
 </div>
 

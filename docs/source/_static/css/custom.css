@@ -8,31 +8,72 @@
   margin-left: 0 !important;
 }
 
-/* Put the top controls on one line and ensure table starts below */
-div.dataTables_wrapper .dataTables_length,
-div.dataTables_wrapper .dt-buttons,
-div.dataTables_wrapper .dataTables_filter {
-  display: inline-block !important;
-  float: none !important;
+/* RTD theme wrapper breaks DataTables width/scroll */
+.wy-table-responsive {
+  overflow: visible !important;
 }
 
-div.dataTables_wrapper .dataTables_filter {
-  float: right !important;  /* keep Search on the right */
+/* Ensure tables use full width and don't get squished */
+.wy-table-responsive table {
+  width: 100% !important;
+  table-layout: auto !important;
 }
 
-div.dataTables_wrapper table.dataTable {
-  clear: both !important;   /* table starts from left under controls */
+/* DataTables: force full width */
+div.dataTables_wrapper,
+table.dataTable,
+table.dataTable.no-footer {
+  width: 100% !important;
 }
 
-/* Force the actual table container to start at far left */
-div.dataTables_wrapper .dataTables_scroll,
-div.dataTables_wrapper table.dataTable {
-  margin-left: 0 !important;
-  clear: both !important;
-}
-
-/* If your theme adds padding to the wrapper, remove it */
+/* Allow horizontal scroll instead of squeezing columns */
 div.dataTables_wrapper {
-  padding-left: 0 !important;
+  overflow-x: auto;
 }
 
+/* Make the DataTables container not collapse */
+.dataTables_wrapper .dataTables_scroll,
+.dataTables_wrapper .dataTables_scrollHead,
+.dataTables_wrapper .dataTables_scrollBody {
+  width: 100% !important;
+}
+
+/* Prevent layout issues from floats */
+.dataTables_wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Put sphinx-needs needtable filters on one line */
+.needs_filter {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  align-items: center;
+  overflow-x: auto;
+  margin-bottom: 12px;
+}
+
+.needs_filter > div {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 !important;
+}
+
+.needs_filter select,
+.needs_filter input {
+  max-width: 220px;
+}
+
+/* Keep these only if used elsewhere in your site */
+.tab-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.dbs-toctree {
+  display: none;
+}

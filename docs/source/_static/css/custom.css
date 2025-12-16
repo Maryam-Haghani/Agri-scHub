@@ -27,15 +27,4 @@ table.dataTable th:nth-child(1) {
   min-width: 300px; 
 }
 
-/* YouTube thumbnails in sphinx-design cards: keep 16:9 and make smaller */
-#youtube-channels div.sd-col {
-  width: 50%;
-  height: auto;
-  max-width: 140px;
-  display: block;
-  margin: 0 auto;
-  aspect-ratio: 16 / 9;
-  object-fit: contain;
-}
-
 

@@ -1,6 +1,6 @@
 # Youtube Channels
 
-```{grid} 1 2 2 3
+```{grid} 1 1 2 2
 :gutter: 2
 
 ```{grid-item-card} scSeq Techniques in Plant Biology — Dr. Trevor Nolan (Duke University, USA)

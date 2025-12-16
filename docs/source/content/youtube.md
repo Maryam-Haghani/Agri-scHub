@@ -1,56 +1,43 @@
 # Youtube Channels
-Below are some YouTube videos embedded as **thumbnail cards** (click to open on YouTube).
 
-```{grid} 1 2 3 3
+Below are selected videos with thumbnails. Click a card to open the video.
+
+```{grid} 1 2 2 3
 :gutter: 2
 
-```{grid-item-card} 
-Single-cell and spatial omics technologies in plant science
-:img-top: https://img.youtube.com/vi/i9Lk_mAyShU/hqdefault.jpg
+```{grid-item-card} scSeq Techniques in Plant Biology — Dr. Trevor Nolan (Duke University, USA)
+:link: https://www.youtube.com/watch?v=7_0RLQpNBvk
+:shadow: md
+:margin: 2
+:img-top: https://img.youtube.com/vi/7_0RLQpNBvk/hqdefault.jpg
+```
+
+```{grid-item-card} Pseudotime and trajectory inference analysis in snapshot scRNA-seq data
+:link: https://www.youtube.com/watch?v=U0KaHSL-Yn8
+:shadow: md
+:margin: 2
+:img-top: https://img.youtube.com/vi/U0KaHSL-Yn8/hqdefault.jpg
+```
+
+```{grid-item-card} Single-cell and spatial omics technologies in plant science — EMBL-EBI
 :link: https://www.youtube.com/watch?v=i9Lk_mAyShU
-:link-type: url
-
-A quick intro-style video (replace `i9Lk_mAyShU`).
+:shadow: md
+:margin: 2
+:img-top: https://img.youtube.com/vi/i9Lk_mAyShU/hqdefault.jpg
 ```
 
-```{grid-item-card} scRNA-seq analysis walkthrough
-:img-top: https://img.youtube.com/vi/VIDEO_ID_2/hqdefault.jpg
-:link: https://www.youtube.com/watch?v=VIDEO_ID_2
-:link-type: url
-
-Tutorial / hands-on walkthrough (replace `VIDEO_ID_2`).
+```{grid-item-card} OMICS data analysis and integration
+:link: https://www.youtube.com/watch?v=eUhcDRiom08
+:shadow: md
+:margin: 2
+:img-top: https://img.youtube.com/vi/eUhcDRiom08/hqdefault.jpg
 ```
 
-```{grid-item-card} Cell type annotation tips
-:img-top: https://img.youtube.com/vi/VIDEO_ID_3/hqdefault.jpg
-:link: https://www.youtube.com/watch?v=VIDEO_ID_3
-:link-type: url
-
-Annotation strategies and best practices (replace `VIDEO_ID_3`).
-```
-
-```{grid-item-card} Trajectory inference concepts
-:img-top: https://img.youtube.com/vi/VIDEO_ID_4/hqdefault.jpg
-:link: https://www.youtube.com/watch?v=VIDEO_ID_4
-:link-type: url
-
-Pseudotime / trajectories (replace `VIDEO_ID_4`).
-```
-
-```{grid-item-card} Spatial transcriptomics in plants
-:img-top: https://img.youtube.com/vi/VIDEO_ID_5/hqdefault.jpg
-:link: https://www.youtube.com/watch?v=VIDEO_ID_5
-:link-type: url
-
-Spatial methods overview (replace `VIDEO_ID_5`).
-```
-
-```{grid-item-card} scATAC / multi-omics integration
-:img-top: https://img.youtube.com/vi/VIDEO_ID_6/hqdefault.jpg
-:link: https://www.youtube.com/watch?v=VIDEO_ID_6
-:link-type: url
-
-Multi-omics integration (replace `VIDEO_ID_6`).
+```{grid-item-card} How AI Is Revolutionizing Bioinformatics | DNA, Proteins & Medicine
+:link: https://www.youtube.com/watch?v=uqohZcKB9x0
+:shadow: md
+:margin: 2
+:img-top: https://img.youtube.com/vi/uqohZcKB9x0/hqdefault.jpg
 ```
 
 ```

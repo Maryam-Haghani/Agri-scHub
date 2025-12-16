@@ -48,3 +48,5 @@
 ```{needlist}
 :types: publication
 ```
+
+</div>

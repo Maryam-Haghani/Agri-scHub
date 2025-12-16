@@ -33,4 +33,10 @@
 :img-top: https://img.youtube.com/vi/uqohZcKB9x0/mqdefault.jpg
 ```
 
+```{grid-item-card} How AI Is Revolutionizing Bioinformatics | DNA, Proteins & Medicine
+:link: https://www.youtube.com/watch?v=uqohZcKB9x0
+:shadow: md
+:img-top: https://img.youtube.com/vi/uqohZcKB9x0/mqdefault.jpg
+```
+
 ```

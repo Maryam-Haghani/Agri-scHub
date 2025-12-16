@@ -7,6 +7,10 @@
   margin-left: 0 !important;
 }
 
+.wy-table-responsive {
+  overflow: visible !important;
+}
+
 .tab-card {
   display: flex;
   align-items: center;
@@ -14,6 +18,22 @@
 }
 
 .dbs-toctree { display: none; }
+
+/* Ensure the needs datatable uses full width */
+div.dataTables_wrapper {
+  width: 100% !important;
+}
+
+table.dataTable {
+  width: 100% !important;
+}
+
+/* Optional: allow horizontal scroll instead of squishing columns */
+div.dataTables_wrapper .dataTables_scrollBody,
+div.dataTables_wrapper {
+  overflow-x: auto;
+}
+
 
 /* Put sphinx-needs needtable filters on one line */
 .needs_filter {

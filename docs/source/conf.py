@@ -87,4 +87,17 @@ needs_default_status = "published"
 
 needs_table_classes = ["rtd-exclude-wy-table"]
 
+# Make DOI values clickable (only if they look like real DOIs)
+needs_string_links = {
+    "doi_link": {
+        "regex": r"^(?P<value>10\.\d{4,9}/.+)$",
+        "link_url": "https://doi.org/{{value}}",
+        "link_name": "{{value}}",
+        "options": ["doi"],
+    }
+}
+
+
+
+
 

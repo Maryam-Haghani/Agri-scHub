@@ -26,3 +26,11 @@ table.dataTable th:nth-child(1) {
   word-break: break-word;
   min-width: 300px; 
 }
+
+/* Force 2 columns on narrower themes like sphinx_rtd_theme */
+@media (min-width: 576px) {
+  .sd-row-cols-1 > .sd-col {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}

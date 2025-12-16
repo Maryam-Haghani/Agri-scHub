@@ -5,7 +5,6 @@
 ```{needtable}
 :types: publication
 :columns: id;title;category;doi;year;code;sra
-:filter: True
 :sort_by: category
 :show_parts: False
 ```

@@ -27,5 +27,13 @@ table.dataTable th:nth-child(1) {
   min-width: 300px; 
 }
 
+/* --- YouTube grid cards: make all thumbnails same size --- */
+.sd-card img.sd-card-img-top {
+  width: 100% !important;
+  height: 140px !important;     /* adjust (120–180px) */
+  object-fit: cover !important; /* crop instead of stretching */
+  display: block !important;
+}
+
 
 

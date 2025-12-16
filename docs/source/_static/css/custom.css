@@ -1,27 +1,11 @@
+div.dataTables_wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 div.dataTables_wrapper table.dataTable {
-  clear: both;
-  width: 100% !important;
-}
-div.dataTables_wrapper {
-  width: 100%;
+  clear: both !important;
 }
 
-/* --- RTD + DataTables: prevent the "split table" effect on narrow screens --- */
 
-/* If RTD still wraps it, don't let the wrapper clamp/transform the table */
-.wy-table-responsive:has(.dataTables_wrapper) {
-  overflow: visible !important;
-}
-
-/* Let DataTables wrapper do horizontal scrolling instead */
-.wy-table-responsive:has(.dataTables_wrapper) .dataTables_wrapper {
-  overflow-x: auto;
-  width: 100%;
-}
-
-/* Make the actual table start at the far left of the content column */
-.wy-table-responsive:has(.dataTables_wrapper) table.dataTable {
-  margin-left: 0 !important;
-  width: 100% !important;
-  clear: both;
-}

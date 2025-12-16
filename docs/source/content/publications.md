@@ -3,6 +3,8 @@
 
 ## Table
 
+<div style="width:100%; overflow-x:auto;"> 
+  
 ```{needtable}
 :types: publication
 :columns: id;category;doi;year;code;sra

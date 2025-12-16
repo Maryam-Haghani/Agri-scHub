@@ -13,4 +13,12 @@ div.dataTables_wrapper table.dataTable {
   overflow: visible !important;
 }
 
+/* Allow wrapping in the Title column (2nd column) */
+table.dataTable td:nth-child(1),
+table.dataTable th:nth-child(1) {
+  white-space: normal !important;
+  word-break: break-word;
+}
+
+
 

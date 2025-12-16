@@ -1,6 +1,6 @@
 # Youtube Channels
 
-```{grid} 1 2 2 3
+```{grid} 1 1 2 2
 :gutter: 2
 
 ```{grid-item-card} scSeq Techniques in Plant Biology — Dr. Trevor Nolan (Duke University, USA)
@@ -25,12 +25,6 @@
 :link: https://www.youtube.com/watch?v=eUhcDRiom08
 :shadow: md
 :img-top: https://img.youtube.com/vi/eUhcDRiom08/mqdefault.jpg
-```
-
-```{grid-item-card} How AI Is Revolutionizing Bioinformatics | DNA, Proteins & Medicine
-:link: https://www.youtube.com/watch?v=uqohZcKB9x0
-:shadow: md
-:img-top: https://img.youtube.com/vi/uqohZcKB9x0/mqdefault.jpg
 ```
 
 ```{grid-item-card} How AI Is Revolutionizing Bioinformatics | DNA, Proteins & Medicine

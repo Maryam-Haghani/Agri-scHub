@@ -29,9 +29,9 @@ table.dataTable th:nth-child(1) {
 
 /* YouTube thumbnails in sphinx-design cards: keep 16:9 and make smaller */
 img.sd-card-img-top {
-  width: 100%;
+  width: 50%;
   height: auto;
-  max-width: 240px;
+  max-width: 140px;
   display: block;
   margin: 0 auto;
   aspect-ratio: 16 / 9;

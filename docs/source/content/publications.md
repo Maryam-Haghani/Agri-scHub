@@ -1,7 +1,5 @@
 # Publications
 
-## Table
-
 <div style="width:100%; overflow-x:auto;">
 
 ```{needtable}
@@ -10,10 +8,9 @@
 :filter: True
 :sort: category
 ```
-
 </div>
 
-## Publications
+<div style="display:none">
 
 ```{publication} scPlantDB: a plant single-cell database
 :id: PUB_SCPLANTDB
@@ -45,8 +42,6 @@
 :sra: SRPZZZZZZ
 ```
 
-## Browse
+</div>
 
-```{needlist}
-:types: publication
-```
+

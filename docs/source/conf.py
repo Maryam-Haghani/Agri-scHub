@@ -83,3 +83,6 @@ needs_statuses = [
 ]
 needs_default_status = "published"
 
+needs_table_classes = ["rtd-exclude-wy-table"]
+
+

@@ -1,7 +1,5 @@
 # Publications
 
-<div style="width:100%; overflow-x:auto;">
-
 ```{needtable}
 :types: publication
 :columns: id;title;category;doi;year;code;sra
@@ -9,7 +7,6 @@
 :show_parts: False
 :style: datatables
 ```
-</div>
 
 <div style="display:none">
 

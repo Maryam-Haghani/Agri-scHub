@@ -78,3 +78,8 @@ needs_extra_options = ["category", "doi", "year", "code", "sra"]
 
 needs_default_layout = "clean"
 
+needs_statuses = [
+    dict(name="published", description="Published paper", color="#4CAF50"),
+]
+needs_default_status = "published"
+

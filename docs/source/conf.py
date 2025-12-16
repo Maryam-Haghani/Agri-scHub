@@ -94,6 +94,19 @@ needs_string_links = {
         "link_url": "https://doi.org/{{value}}",
         "link_name": "{{value}}",
         "options": ["doi"],
+    },
+    # Code link: if code is a URL, show just the word "Code"
+    "code_link": {
+        "regex": r"^(?P<value>https?://.+)$",
+        "link_url": "{{value}}",
+        "link_name": "Code",
+        "options": ["code"],
+    },
+    "sra_link": {
+        "regex": r"^(?P<value>(SRP|ERP|DRP)\d+)$",
+        "link_url": "https://www.ncbi.nlm.nih.gov/sra/?term={{value}}",
+        "link_name": "SRA",
+        "options": ["sra"],
     }
 }
 

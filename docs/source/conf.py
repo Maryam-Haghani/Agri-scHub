@@ -5,7 +5,7 @@ assert importlib.util.find_spec("sphinx_design"), "sphinx_design not installed i
 # Configuration file for the Sphinx documentation builder.
 
 def setup(app):
-    app.add_css_file("custom.css")
+    app.add_css_file("css/custom.css")
 
 # -- Project information
 
@@ -69,7 +69,7 @@ html_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css",
     "https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css",
     "https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css",
-    "custom.css"
+    "css/custom.css"
 ]
 
 needs_types = [

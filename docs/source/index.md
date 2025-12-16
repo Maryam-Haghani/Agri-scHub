@@ -1,4 +1,8 @@
 # Home
+__PlantSCHub__ is a community-curated hub for reproducible plant single-cell analysis.
+
+It centralizes datasets, publications, protocols, tutorials, and practical workflows, helping researchers navigate plant-specific challenges.
+
 
 ::::{grid} 1
 :class-container: sd-gap-2

@@ -18,7 +18,7 @@ table.dataTable td:nth-child(1),
 table.dataTable th:nth-child(1) {
   white-space: normal !important;
   word-break: break-word;
-  min-width: 320px; 
+  min-width: 250px; 
 }
 
 

@@ -1,3 +1,9 @@
+/* Optional: use full browser width (minus sidebar) */
+.wy-nav-content {
+  max-width: none;
+}
+
+
 div.dataTables_wrapper::after {
   content: "";
   display: block;

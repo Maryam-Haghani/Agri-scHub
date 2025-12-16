@@ -1,7 +1,5 @@
 # Youtube Channels
 
-Below are selected videos with thumbnails. Click a card to open the video.
-
 ```{grid} 1 2 2 3
 :gutter: 2
 

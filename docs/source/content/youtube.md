@@ -4,12 +4,13 @@ Below are some YouTube videos embedded as **thumbnail cards** (click to open on 
 ```{grid} 1 2 3 3
 :gutter: 2
 
-```{grid-item-card} Plant single-cell overview
-:img-top: https://img.youtube.com/vi/VIDEO_ID_1/hqdefault.jpg
-:link: https://www.youtube.com/watch?v=VIDEO_ID_1
+```{grid-item-card} 
+Single-cell and spatial omics technologies in plant science
+:img-top: https://img.youtube.com/vi/i9Lk_mAyShU/hqdefault.jpg
+:link: https://www.youtube.com/watch?v=i9Lk_mAyShU
 :link-type: url
 
-A quick intro-style video (replace `VIDEO_ID_1`).
+A quick intro-style video (replace `i9Lk_mAyShU`).
 ```
 
 ```{grid-item-card} scRNA-seq analysis walkthrough
@@ -53,13 +54,3 @@ Multi-omics integration (replace `VIDEO_ID_6`).
 ```
 
 ```
-
-## How to add a real video
-
-1. Open the video on YouTube and copy the ID from the URL:
-   - Example: `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
-   - Video ID is `dQw4w9WgXcQ`
-
-2. Replace `VIDEO_ID_X` in **both** places:
-   - Thumbnail: `https://img.youtube.com/vi/<ID>/hqdefault.jpg`
-   - Link: `https://www.youtube.com/watch?v=<ID>`
